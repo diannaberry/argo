@@ -1,0 +1,231 @@
+##FastQC results 
+#January 26, 2016
+
+`$ for zip in *.zip
+> do
+> unzip $zip
+> done`
+
+`matt@matt-VirtualBox:/media/sf_vmdata/Ai/results/fastqc$ cat */summary.txt > fastqcsummaries.txt`
+
+
+PASS	Basic Statistics	CD001_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD001_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD001_1_output_forward_paired.fq
+WARN	Per base sequence content	CD001_1_output_forward_paired.fq
+PASS	Per base GC content	CD001_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD001_1_output_forward_paired.fq
+PASS	Per base N content	CD001_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD001_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD001_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD001_1_output_forward_paired.fq
+WARN	Kmer Content	CD001_1_output_forward_paired.fq
+PASS	Basic Statistics	CD001_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD001_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD001_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD001_3_output_reverse_paired.fq
+PASS	Per base GC content	CD001_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD001_3_output_reverse_paired.fq
+PASS	Per base N content	CD001_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD001_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD001_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD001_3_output_reverse_paired.fq
+WARN	Kmer Content	CD001_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD002_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD002_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD002_1_output_forward_paired.fq
+WARN	Per base sequence content	CD002_1_output_forward_paired.fq
+PASS	Per base GC content	CD002_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD002_1_output_forward_paired.fq
+PASS	Per base N content	CD002_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD002_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD002_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD002_1_output_forward_paired.fq
+WARN	Kmer Content	CD002_1_output_forward_paired.fq
+PASS	Basic Statistics	CD002_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD002_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD002_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD002_3_output_reverse_paired.fq
+PASS	Per base GC content	CD002_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD002_3_output_reverse_paired.fq
+PASS	Per base N content	CD002_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD002_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD002_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD002_3_output_reverse_paired.fq
+WARN	Kmer Content	CD002_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD003_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD003_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD003_1_output_forward_paired.fq
+WARN	Per base sequence content	CD003_1_output_forward_paired.fq
+PASS	Per base GC content	CD003_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD003_1_output_forward_paired.fq
+PASS	Per base N content	CD003_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD003_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD003_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD003_1_output_forward_paired.fq
+WARN	Kmer Content	CD003_1_output_forward_paired.fq
+PASS	Basic Statistics	CD003_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD003_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD003_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD003_3_output_reverse_paired.fq
+PASS	Per base GC content	CD003_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD003_3_output_reverse_paired.fq
+PASS	Per base N content	CD003_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD003_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD003_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD003_3_output_reverse_paired.fq
+WARN	Kmer Content	CD003_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD004_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD004_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD004_1_output_forward_paired.fq
+WARN	Per base sequence content	CD004_1_output_forward_paired.fq
+PASS	Per base GC content	CD004_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD004_1_output_forward_paired.fq
+PASS	Per base N content	CD004_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD004_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD004_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD004_1_output_forward_paired.fq
+WARN	Kmer Content	CD004_1_output_forward_paired.fq
+PASS	Basic Statistics	CD004_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD004_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD004_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD004_3_output_reverse_paired.fq
+PASS	Per base GC content	CD004_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD004_3_output_reverse_paired.fq
+PASS	Per base N content	CD004_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD004_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD004_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD004_3_output_reverse_paired.fq
+WARN	Kmer Content	CD004_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD005_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD005_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD005_1_output_forward_paired.fq
+WARN	Per base sequence content	CD005_1_output_forward_paired.fq
+PASS	Per base GC content	CD005_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD005_1_output_forward_paired.fq
+PASS	Per base N content	CD005_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD005_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD005_1_output_forward_paired.fq
+PASS	Overrepresented sequences	CD005_1_output_forward_paired.fq
+PASS	Kmer Content	CD005_1_output_forward_paired.fq
+PASS	Basic Statistics	CD005_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD005_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD005_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD005_3_output_reverse_paired.fq
+PASS	Per base GC content	CD005_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD005_3_output_reverse_paired.fq
+PASS	Per base N content	CD005_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD005_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD005_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD005_3_output_reverse_paired.fq
+PASS	Kmer Content	CD005_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD006_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD006_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD006_1_output_forward_paired.fq
+WARN	Per base sequence content	CD006_1_output_forward_paired.fq
+PASS	Per base GC content	CD006_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD006_1_output_forward_paired.fq
+PASS	Per base N content	CD006_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD006_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD006_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD006_1_output_forward_paired.fq
+WARN	Kmer Content	CD006_1_output_forward_paired.fq
+PASS	Basic Statistics	CD006_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD006_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD006_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD006_3_output_reverse_paired.fq
+PASS	Per base GC content	CD006_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD006_3_output_reverse_paired.fq
+PASS	Per base N content	CD006_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD006_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD006_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD006_3_output_reverse_paired.fq
+WARN	Kmer Content	CD006_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD007_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD007_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD007_1_output_forward_paired.fq
+WARN	Per base sequence content	CD007_1_output_forward_paired.fq
+PASS	Per base GC content	CD007_1_output_forward_paired.fq
+WARN	Per sequence GC content	CD007_1_output_forward_paired.fq
+PASS	Per base N content	CD007_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD007_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD007_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD007_1_output_forward_paired.fq
+WARN	Kmer Content	CD007_1_output_forward_paired.fq
+PASS	Basic Statistics	CD007_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD007_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD007_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD007_3_output_reverse_paired.fq
+PASS	Per base GC content	CD007_3_output_reverse_paired.fq
+WARN	Per sequence GC content	CD007_3_output_reverse_paired.fq
+PASS	Per base N content	CD007_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD007_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD007_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD007_3_output_reverse_paired.fq
+WARN	Kmer Content	CD007_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD008_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD008_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD008_1_output_forward_paired.fq
+WARN	Per base sequence content	CD008_1_output_forward_paired.fq
+PASS	Per base GC content	CD008_1_output_forward_paired.fq
+WARN	Per sequence GC content	CD008_1_output_forward_paired.fq
+PASS	Per base N content	CD008_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD008_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD008_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD008_1_output_forward_paired.fq
+PASS	Kmer Content	CD008_1_output_forward_paired.fq
+PASS	Basic Statistics	CD008_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD008_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD008_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD008_3_output_reverse_paired.fq
+PASS	Per base GC content	CD008_3_output_reverse_paired.fq
+WARN	Per sequence GC content	CD008_3_output_reverse_paired.fq
+PASS	Per base N content	CD008_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD008_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD008_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD008_3_output_reverse_paired.fq
+WARN	Kmer Content	CD008_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD009_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD009_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD009_1_output_forward_paired.fq
+WARN	Per base sequence content	CD009_1_output_forward_paired.fq
+PASS	Per base GC content	CD009_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD009_1_output_forward_paired.fq
+PASS	Per base N content	CD009_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD009_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD009_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD009_1_output_forward_paired.fq
+WARN	Kmer Content	CD009_1_output_forward_paired.fq
+PASS	Basic Statistics	CD009_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD009_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD009_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD009_3_output_reverse_paired.fq
+PASS	Per base GC content	CD009_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD009_3_output_reverse_paired.fq
+PASS	Per base N content	CD009_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD009_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD009_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD009_3_output_reverse_paired.fq
+WARN	Kmer Content	CD009_3_output_reverse_paired.fq
+PASS	Basic Statistics	CD010_1_output_forward_paired.fq
+PASS	Per base sequence quality	CD010_1_output_forward_paired.fq
+PASS	Per sequence quality scores	CD010_1_output_forward_paired.fq
+WARN	Per base sequence content	CD010_1_output_forward_paired.fq
+PASS	Per base GC content	CD010_1_output_forward_paired.fq
+FAIL	Per sequence GC content	CD010_1_output_forward_paired.fq
+PASS	Per base N content	CD010_1_output_forward_paired.fq
+WARN	Sequence Length Distribution	CD010_1_output_forward_paired.fq
+FAIL	Sequence Duplication Levels	CD010_1_output_forward_paired.fq
+WARN	Overrepresented sequences	CD010_1_output_forward_paired.fq
+WARN	Kmer Content	CD010_1_output_forward_paired.fq
+PASS	Basic Statistics	CD010_3_output_reverse_paired.fq
+PASS	Per base sequence quality	CD010_3_output_reverse_paired.fq
+PASS	Per sequence quality scores	CD010_3_output_reverse_paired.fq
+WARN	Per base sequence content	CD010_3_output_reverse_paired.fq
+PASS	Per base GC content	CD010_3_output_reverse_paired.fq
+FAIL	Per sequence GC content	CD010_3_output_reverse_paired.fq
+PASS	Per base N content	CD010_3_output_reverse_paired.fq
+WARN	Sequence Length Distribution	CD010_3_output_reverse_paired.fq
+FAIL	Sequence Duplication Levels	CD010_3_output_reverse_paired.fq
+WARN	Overrepresented sequences	CD010_3_output_reverse_paired.fq
+WARN	Kmer Content	CD010_3_output_reverse_paired.fq
